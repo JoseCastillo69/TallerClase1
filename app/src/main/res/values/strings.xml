@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Cotizador de Manillas</string>
+    <string name="titulo">Cotizador de Manillas</string>
+    <string name="Mensaje_Introduccion"> Mensaje Introduccion</string>
+    <string name="calcular"> Calcular </string>
+    <string name="Limpiar"> Limpiar </string>
+    <string name="cuero"> Cuero </string>
+    <string name="cuerda"> Cuerda </string>
+    <string name="martillo"> Martillo </string>
+    <string name="ancla"> Ancla </string>
+    <string name="oro"> Oro </string>
+    <string name="oro_rosado"> Oro Rosado </string>
+    <string name="plata"> Plata </string>
+    <string name="niquel"> Niquel </string>
+    <string name="pesos"> Pesos </string>
+    <string name="Dolares"> Dolares </string>
+    <string name="seleccione">Seleccione una opcion</string>
+    <string name="cantidad"> Ingrese Cantidad de Manillas </string>
+    <string name="error_1">Digite numero uno</string>
+    <string name="error_2">Digite numero dos</string>
+    <string name="error_3">Seleccione una operacion</string>
+    <string name="error_4">Numero dos no puede ser cero</string>
+    <string-array name="material">
+        <item>@string/seleccione</item>
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+
+    <string-array name="dije">
+        <item>@string/seleccione</item>
+        <item>@string/martillo</item>
+        <item>@string/ancla</item>
+    </string-array>
+
+    <string-array name="tipo">
+        <item>@string/seleccione</item>
+        <item>@string/oro</item>
+        <item>@string/oro_rosado</item>
+        <item>@string/plata</item>
+        <item>@string/niquel</item>
+    </string-array>
+
+    <string-array name="t_moneda">
+        <item>@string/seleccione</item>
+        <item>@string/pesos</item>
+        <item>@string/Dolares</item>
+    </string-array>
+
+
+</resources>
