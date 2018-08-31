@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bracelet quote</string>
+    <string name="titulo">Bracelet quote</string>
+    <string name="Mensaje_Introduccion">Introduction Message</string>
+    <string name="Limpiar">Clear</string>
+    <string name="cuero">Leather</string>
+    <string name="cuerda">Rope</string>
+    <string name="martillo">Hammer</string>
+    <string name="ancla">anchor</string>
+    <string name="oro">Gold</string>
+    <string name="oro_rosado">Pink Gold</string>
+    <string name="plata">Silver</string>
+    <string name="niquel">Nickel</string>
+    <string name="pesos">COP</string>
+    <string name="Dolares">US</string>
+    <string name="seleccione">Choose an Option</string>
+    <string name="cantidad">Enter a Bracelet quantity</string>
+    <string name="error_1">Enter a quantity</string>
+    <string name="error_2">Choose a material</string>
+    <string name="error_3">Choose a charm</string>
+    <string name="error_4">Choose a type</string>
+    <string name="error_5">choose a type of currency</string>
+</resources>

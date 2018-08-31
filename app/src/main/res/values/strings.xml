@@ -2,7 +2,7 @@
     <string name="app_name">Cotizador de Manillas</string>
     <string name="titulo">Cotizador de Manillas</string>
     <string name="Mensaje_Introduccion"> Mensaje Introduccion</string>
-    <string name="calcular"> Calcular </string>
+    <string name="calcular"> Cotizar</string>
     <string name="Limpiar"> Limpiar </string>
     <string name="cuero"> Cuero </string>
     <string name="cuerda"> Cuerda </string>
@@ -16,10 +16,13 @@
     <string name="Dolares"> Dolares </string>
     <string name="seleccione">Seleccione una opcion</string>
     <string name="cantidad"> Ingrese Cantidad de Manillas </string>
-    <string name="error_1">Digite numero uno</string>
-    <string name="error_2">Digite numero dos</string>
-    <string name="error_3">Seleccione una operacion</string>
-    <string name="error_4">Numero dos no puede ser cero</string>
+    <string name="error_1"> ingrese una cantidad </string>
+    <string name="error_2"> Seleccione un material </string>
+    <string name="error_3"> Seleccione un dije </string>
+    <string name="error_4"> Seleccione un tipo </string>
+    <string name="error_5"> Seleccione un tipo de moneda </string>
+    <string name="cotizar"> Cotizar </string>
+
     <string-array name="material">
         <item>@string/seleccione</item>
         <item>@string/cuero</item>
@@ -42,8 +45,8 @@
 
     <string-array name="t_moneda">
         <item>@string/seleccione</item>
-        <item>@string/pesos</item>
         <item>@string/Dolares</item>
+        <item>@string/pesos</item>
     </string-array>
 
 

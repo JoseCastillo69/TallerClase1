@@ -2,7 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Cotizador de Manillas"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CotizadorManillas">
@@ -22,8 +22,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="4dp"
-            tools:text="Cotizador de Manillas" />
+            tools:layout_editor_absoluteY="4dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -37,9 +36,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="88dp">
+            android:orientation="vertical">
 
             <Spinner
                 android:id="@+id/cmbMaterial"
@@ -64,7 +61,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
-
         </LinearLayout>
 
         <EditText
@@ -88,6 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="cotizar"
                 android:text="Cotizar" />
 
             <Button
@@ -95,6 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="limpiar"
                 android:text="Reiniciar" />
 
         </LinearLayout>
@@ -102,7 +100,7 @@
         <TextView
             android:id="@+id/txtResumen"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:textAlignment="center"
             android:textStyle="bold"
